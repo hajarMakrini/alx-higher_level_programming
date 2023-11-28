@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for n in range(0, 10):
-    for d in range(n + 1, 10):
-        if n < d:
-print("{:d}{:d}".format(n, d), end='\n' if n == 8 and d == 9 else ", ")
+for nm in range(0, 10):
+    for dg in range(nm + 1, 10):
+        if nm < dg:
+print("{:d}{:d}".format(nm, dg), end='\n' if nm == 8 and dg == 9 else ", ")
